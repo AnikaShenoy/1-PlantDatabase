@@ -12,7 +12,7 @@ public class _4Flowers_frombr_atten1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout._4activity_flowers_frombr_atten1);
-    }
+    } 
 
     public void yesFlowers (View view){
         Intent intent  = new Intent(this, _5Size_from1yfl_br_atten.class);
