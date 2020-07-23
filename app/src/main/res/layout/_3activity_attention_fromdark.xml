@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="._3Attention_fromdark">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:onClick="noAttentionDark"
+        android:text="@string/Notalotofattention"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        tools:text="@string/Notalotofattention" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="302dp"
+        android:layout_height="223dp"
+        android:adjustViewBounds="false"
+        android:onClick="noAttentionDark"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/notmuchattention" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:onClick="attentionDark"
+        android:text="@string/lotsofattention"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        tools:text="@string/lotsofattention" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="309dp"
+        android:layout_height="196dp"
+        android:adjustViewBounds="false"
+        android:onClick="attentionDark"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/payattention" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/howmuchattentiondoyouwanttogiveyourplant"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/howmuchattentiondoyouwanttogiveyourplant" />
+</androidx.constraintlayout.widget.ConstraintLayout>

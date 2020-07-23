@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="._2Light">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/lightTitle"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="How well-lit will your new plant's home be?" />
+
+    <ImageButton
+        android:id="@+id/image_button_bright_home"
+        android:layout_width="312dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="24dp"
+        android:onClick="brightoption"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/brighthome" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:onClick="brightoption"
+        android:text="@string/bright"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_button_bright_home"
+        tools:text="Bright" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:onClick="darkoption"
+        android:text="@string/somewhatShady"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        tools:text="Somewhat Shady" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="286dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="16dp"
+        android:onClick="darkoption"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/shadyhome" />
+</androidx.constraintlayout.widget.ConstraintLayout>

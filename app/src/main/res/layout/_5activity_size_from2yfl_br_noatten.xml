@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="._5Size_from2yfl_br_noatten">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:onClick="small"
+        android:text="@string/asmallplant"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton19"
+        tools:text="@string/asmallplant" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="349dp"
+        android:layout_height="223dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="false"
+        android:onClick="small"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        app:srcCompat="@drawable/size_small" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:onClick="large"
+        android:text="@string/alargeplant"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton18"
+        tools:text="@string/alargeplant" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="334dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="28dp"
+        android:adjustViewBounds="false"
+        android:onClick="large"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:srcCompat="@drawable/size_large" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/wouldyoulikealargeorsmallplant"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/wouldyoulikealargeorsmallplant" />
+</androidx.constraintlayout.widget.ConstraintLayout>
