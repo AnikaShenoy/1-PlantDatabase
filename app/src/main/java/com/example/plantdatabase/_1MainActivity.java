@@ -8,16 +8,6 @@ import android.view.View;
 
 public class _1MainActivity extends AppCompatActivity {
 
-   /* public class MyApplication extends Application {
-        public boolean isBright=false, isShady=false;
-
-        public void setIsBright(boolean isBright) {
-            this.isBright = isBright;
-        }
-    }
-
-    public boolean isBright=false, isShady=false;
-    */
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {

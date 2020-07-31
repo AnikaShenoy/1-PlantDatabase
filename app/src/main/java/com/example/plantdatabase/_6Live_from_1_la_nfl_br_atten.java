@@ -19,4 +19,9 @@ public class _6Live_from_1_la_nfl_br_atten extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void sit (View view){
+        Intent intent = new Intent(this, _7activity_result_from_1_la_nfl_br_atten_sit.class);
+        startActivity(intent);
+
+    }
 }
