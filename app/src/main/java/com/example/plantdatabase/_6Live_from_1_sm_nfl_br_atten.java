@@ -19,7 +19,7 @@ public class _6Live_from_1_sm_nfl_br_atten extends AppCompatActivity {
 
     }
     public void sit (View view){
-        Intent intent = new Intent(this, _7activity_result_from_1_sm_nfl_br_atten_sit.class);
+        Intent intent = new Intent(this, aloe_vera.class);
         startActivity(intent);
 
     }

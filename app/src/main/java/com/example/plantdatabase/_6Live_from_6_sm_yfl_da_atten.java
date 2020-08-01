@@ -20,7 +20,7 @@ public class _6Live_from_6_sm_yfl_da_atten extends AppCompatActivity {
     }
 
     public void sit(View view) {
-        Intent intent = new Intent(this, _7activity_result_from_6_sm_yfl_da_atten_sit.class);
+        Intent intent = new Intent(this, boat_orchid.class);
         startActivity(intent);
 
     }

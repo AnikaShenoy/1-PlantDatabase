@@ -84,4 +84,5 @@
     <string name="prayerplantinfo">Soil: Well\-Drained\nGrowth Rate: Moderate\nHeight: 0.2\-0.4m\nSpread: 0.3\-0.6m\nWater Use: Moderate\nNote: Maintain high humidity</string>
     <string name="chineseevergreen">Your Curated Recommendation:\nChinese Evergreen</string>
     <string name="chineseevergreeninfo">Soil: Well\-Drained\nGrowth Rate: Slow\nHeight: 0.7\-1.3m\nSpread: 0.3\-0.6m\nWater Use: Low\nNote: Sensitive to heat and cold temperature</string>
-</resources>
+    <string name="learnmore">Learn More!</string>
+    </resources>

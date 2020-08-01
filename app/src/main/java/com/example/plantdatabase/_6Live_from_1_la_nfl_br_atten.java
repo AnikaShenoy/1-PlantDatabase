@@ -15,12 +15,12 @@ public class _6Live_from_1_la_nfl_br_atten extends AppCompatActivity {
     }
 
     public void hang (View view){
-        Intent intent = new Intent(this, _7activity_result_from_1_la_nfl_br_atten_hang.class);
+        Intent intent = new Intent(this, string_of_pearls.class);
         startActivity(intent);
 
     }
     public void sit (View view){
-        Intent intent = new Intent(this, _7activity_result_from_1_la_nfl_br_atten_sit.class);
+        Intent intent = new Intent(this, croton.class);
         startActivity(intent);
 
     }

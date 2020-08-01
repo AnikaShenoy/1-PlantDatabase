@@ -14,13 +14,13 @@ public class _6Live_from_3_la_nfl_br_noatten extends AppCompatActivity {
         setContentView(R.layout._6activity_live_from_3_la_nfl_br_noatten);
     }
     public void hang(View view) {
-        Intent intent = new Intent(this, _7activity_result_from_3_la_nfl_br_noatten_hang.class);
+        Intent intent = new Intent(this, spider_plant.class);
         startActivity(intent);
 
     }
 
     public void sit(View view) {
-        Intent intent = new Intent(this, _7activity_result_from_3_la_nfl_br_noatten_sit.class);
+        Intent intent = new Intent(this, money_tree.class);
         startActivity(intent);
 
     }
