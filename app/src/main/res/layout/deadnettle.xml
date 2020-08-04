@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="._7activity_result_from_8_la_yfl_da_noatten_hang">
+    tools:context=".deadnettle">
 
     <TextView
         android:id="@+id/textView153"
@@ -23,11 +23,36 @@
         android:id="@+id/textView154"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:fontFamily="serif"
         android:gravity="center"
         android:text="@string/deadnettleinfo"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView31" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView153"
+        app:srcCompat="@drawable/deadnettle" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="135dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="42dp"
+        android:onClick="goOnline"
+        android:text="@string/learnmore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView154" />
 </androidx.constraintlayout.widget.ConstraintLayout>

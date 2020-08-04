@@ -14,13 +14,13 @@ public class _6Live_from_6_la_yfl_da_atten extends AppCompatActivity {
         setContentView(R.layout._6activity_live_from_6_la_yfl_da_atten);
     }
     public void hang(View view) {
-        Intent intent = new Intent(this, _7activity_result_from_6_la_yfl_da_atten_hang.class);
+        Intent intent = new Intent(this, parlourpalm.class);
         startActivity(intent);
 
     }
 
     public void sit(View view) {
-        Intent intent = new Intent(this, _7activity_result_from_6_la_yfl_da_atten_sit.class);
+        Intent intent = new Intent(this, dumbcane.class);
         startActivity(intent);
 
     }

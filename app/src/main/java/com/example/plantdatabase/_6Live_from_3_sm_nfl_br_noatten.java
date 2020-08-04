@@ -14,7 +14,7 @@ public class _6Live_from_3_sm_nfl_br_noatten extends AppCompatActivity {
         setContentView(R.layout._6activity_live_from_3_sm_nfl_br_noatten);
     }
     public void hang(View view) {
-        Intent intent = new Intent(this, _7activity_result_from_3_sm_nfl_br_noatten_hang.class);
+        Intent intent = new Intent(this, burrostailplant.class);
         startActivity(intent);
 
     }

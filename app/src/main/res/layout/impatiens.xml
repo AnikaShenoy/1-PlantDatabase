@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="._7activity_result_from_8_la_yfl_da_noatten_sit">
+    tools:context=".impatiens">
 
     <TextView
         android:id="@+id/textView155"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="serif"
-        android:text="@string/impatiens"
         android:gravity="center"
+        android:text="@string/impatiens"
         android:textColor="@android:color/background_dark"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,11 +23,35 @@
         android:id="@+id/textView156"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:fontFamily="serif"
         android:gravity="center"
         android:text="@string/impatiensinfo"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView32" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView155"
+        app:srcCompat="@drawable/impatiens" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="134dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="13dp"
+        android:onClick="goOnline"
+        android:text="@string/learnmore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView156" />
 </androidx.constraintlayout.widget.ConstraintLayout>

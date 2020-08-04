@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="._7activity_result_from_6_la_yfl_da_atten_hang">
+    tools:context=".parlourpalm">
 
     <TextView
         android:id="@+id/textView137"
@@ -23,11 +23,36 @@
         android:id="@+id/textView138"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:fontFamily="serif"
         android:gravity="center"
         android:text="@string/parlourpalminfo"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView28" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/parlourpalm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView137" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="117dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:onClick="goOnline"
+        android:text="@string/learnmore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView138" />
 </androidx.constraintlayout.widget.ConstraintLayout>

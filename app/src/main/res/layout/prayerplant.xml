@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="._7activity_result_from_5_sm_nfl_da_atten_hang">
+    tools:context=".prayerplant">
 
     <TextView
         android:id="@+id/textView133"
@@ -27,7 +27,30 @@
         android:gravity="center"
         android:text="@string/prayerplantinfo"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView133"
+        app:srcCompat="@drawable/prayerplant" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="124dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="28dp"
+        android:onClick="goOnline"
+        android:text="@string/learnmore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView134" />
 </androidx.constraintlayout.widget.ConstraintLayout>

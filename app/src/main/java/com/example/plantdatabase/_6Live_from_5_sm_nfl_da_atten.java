@@ -14,7 +14,7 @@ public class _6Live_from_5_sm_nfl_da_atten extends AppCompatActivity {
         setContentView(R.layout._6activity_live_from_5_sm_nfl_da_atten);
     }
     public void hang(View view) {
-        Intent intent = new Intent(this, _7activity_result_from_5_sm_nfl_da_atten_hang.class);
+        Intent intent = new Intent(this, prayerplant.class);
         startActivity(intent);
 
     }

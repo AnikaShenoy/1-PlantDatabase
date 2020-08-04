@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="._7activity_result_from_3_sm_nfl_br_noatten_hang">
+    tools:context=".burrostailplant">
 
     <TextView
         android:id="@+id/textView119"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:gravity="center"
         android:fontFamily="serif"
+        android:gravity="center"
         android:text="@string/burrostail"
         android:textColor="@android:color/background_dark"
         android:textSize="30sp"
@@ -24,13 +24,37 @@
         android:id="@+id/textView120"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="serif"
         android:gravity="center"
         android:text="@string/burrostailinfo"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView119"
+        app:srcCompat="@drawable/burrostailplant" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="130dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="22dp"
+        android:onClick="goOnline"
+        android:text="@string/learnmore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView120" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

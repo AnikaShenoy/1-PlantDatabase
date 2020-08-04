@@ -20,7 +20,7 @@ public class _6Live_from_4_la_yfl_br_noatten extends AppCompatActivity {
     }
 
     public void sit(View view) {
-        Intent intent = new Intent(this, _7activity_result_from_4_la_yfl_br_noatten_sit.class);
+        Intent intent = new Intent(this, bushlily.class);
         startActivity(intent);
 
     }

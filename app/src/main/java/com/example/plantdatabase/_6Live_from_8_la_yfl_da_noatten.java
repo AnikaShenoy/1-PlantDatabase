@@ -14,13 +14,13 @@ public class _6Live_from_8_la_yfl_da_noatten extends AppCompatActivity {
         setContentView(R.layout._6activity_live_from_8_la_yfl_da_noatten);
     }
     public void hang(View view) {
-        Intent intent = new Intent(this, _7activity_result_from_8_la_yfl_da_noatten_hang.class);
+        Intent intent = new Intent(this, deadnettle.class);
         startActivity(intent);
 
     }
 
     public void sit(View view) {
-        Intent intent = new Intent(this, _7activity_result_from_8_la_yfl_da_noatten_sit.class);
+        Intent intent = new Intent(this, impatiens.class);
         startActivity(intent);
 
     }

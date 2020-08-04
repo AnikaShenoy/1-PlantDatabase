@@ -14,13 +14,13 @@ public class _6Live_from_5_la_nfl_da_atten extends AppCompatActivity {
         setContentView(R.layout._6activity_live_from_5_la_nfl_da_atten);
     }
     public void hang(View view) {
-        Intent intent = new Intent(this, _7activity_result_from_5_la_nfl_da_atten_hang.class);
+        Intent intent = new Intent(this, heartleafphilodendron.class);
         startActivity(intent);
 
     }
 
     public void sit(View view) {
-        Intent intent = new Intent(this, _7activity_result_from_5_la_nfl_da_atten_sit.class);
+        Intent intent = new Intent(this, bostonfern.class);
         startActivity(intent);
 
     }

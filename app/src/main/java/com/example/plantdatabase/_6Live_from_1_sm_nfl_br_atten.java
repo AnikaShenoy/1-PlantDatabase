@@ -14,7 +14,7 @@ public class _6Live_from_1_sm_nfl_br_atten extends AppCompatActivity {
         setContentView(R.layout._6activity_live_from_1_sm_nfl_br_atten);
     }
     public void hang (View view){
-        Intent intent = new Intent(this, _7activity_result_from_1_sm_nfl_br_atten_hang.class);
+        Intent intent = new Intent(this, birdsnestfern.class);
         startActivity(intent);
 
     }
