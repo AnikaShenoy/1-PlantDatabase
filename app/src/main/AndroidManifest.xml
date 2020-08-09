@@ -72,7 +72,6 @@
         <activity android:name="._3Attention_fromdark" />
         <activity android:name="._3Attention_frombright" />
         <activity android:name="._2Light" />
-        <activity android:name="._1AboutUs" />
         <activity android:name="._1MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -80,6 +79,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

@@ -16,11 +16,6 @@ public class _1MainActivity extends AppCompatActivity {
 
     }
 
-    public void aboutUs (View view){
-        Intent intent = new Intent(this, _1AboutUs.class);
-        startActivity(intent);
-
-    }
     public void Light (View view) {
         Intent intent = new Intent (this, _2Light.class);
         startActivity(intent);

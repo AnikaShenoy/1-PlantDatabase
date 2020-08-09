@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Plant Database</string>
-    <string name="letsgetstarted">Find me the perfect plant!</string>
+    <string name="app_name"><b><i>Green</i></b> Thumb</string>
+    <string name="letsgetstarted">Find me the perfect plant</string>
     <string name="about_us">About Us</string>
     <string name="lightTitle">How well-lit will your new plant\'s home be?</string>
     <string name="bright">Bright</string>
     <string name="somewhatShady">Somewhat Shady</string>
-    <string name="howmuchattentiondoyouwanttogiveyourplant">How much attention do you want to give your plant?</string>
+    <string name="howmuchattentiondoyouwanttogiveyourplant">How much attention will you give your plant?</string>
     <string name="lotsofattention">Lots of Attention</string>
     <string name="Notalotofattention">Not a lot of attention</string>
     <string name="wouldyoulikeshowyflowers">Would you like showy flowers</string>
