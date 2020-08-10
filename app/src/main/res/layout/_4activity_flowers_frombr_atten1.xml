@@ -56,9 +56,9 @@
 
     <ImageButton
         android:id="@+id/imageButton8"
-        android:layout_width="334dp"
-        android:layout_height="199dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
         android:adjustViewBounds="false"
         android:onClick="yesFlowers"
         android:padding="0dp"
@@ -71,9 +71,9 @@
 
     <ImageButton
         android:id="@+id/imageButton9"
-        android:layout_width="349dp"
-        android:layout_height="223dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
         android:adjustViewBounds="false"
         android:onClick="noFlowers"
         android:padding="0dp"

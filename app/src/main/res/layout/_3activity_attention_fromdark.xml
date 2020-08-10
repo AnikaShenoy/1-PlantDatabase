@@ -25,9 +25,9 @@
 
     <ImageButton
         android:id="@+id/imageButton6"
-        android:layout_width="302dp"
-        android:layout_height="223dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
         android:adjustViewBounds="false"
         android:onClick="noAttentionDark"
         android:padding="0dp"
@@ -55,9 +55,9 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="309dp"
-        android:layout_height="196dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
         android:adjustViewBounds="false"
         android:onClick="attentionDark"
         android:padding="0dp"

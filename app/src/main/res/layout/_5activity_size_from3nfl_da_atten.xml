@@ -9,9 +9,9 @@
 
     <ImageButton
         android:id="@+id/imageButton25"
-        android:layout_width="349dp"
-        android:layout_height="223dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
         android:adjustViewBounds="false"
         android:onClick="small"
         android:padding="0dp"
@@ -39,15 +39,14 @@
 
     <ImageButton
         android:id="@+id/imageButton24"
-        android:layout_width="334dp"
-        android:layout_height="199dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
         android:adjustViewBounds="false"
         android:onClick="large"
         android:padding="0dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.627"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView40"
         app:srcCompat="@drawable/size_large" />
