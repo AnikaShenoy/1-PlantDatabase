@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/woodbackground1"
     tools:context=".corn_plant">
 
     <TextView
@@ -13,7 +14,7 @@
         android:fontFamily="serif"
         android:gravity="center"
         android:text="@string/cornplant"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/white"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,19 +24,19 @@
         android:id="@+id/textView148"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:fontFamily="serif"
         android:gravity="center"
         android:text="@string/cornplantinfo"
-        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView16" />
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="225dp"
-        android:layout_height="402dp"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
         android:layout_marginTop="8dp"
         android:adjustViewBounds="true"
         android:cropToPadding="false"
@@ -47,9 +48,9 @@
 
     <Button
         android:id="@+id/button18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
         android:onClick="launchWebsite"
         android:text="@string/learnmore"
         app:layout_constraintEnd_toEndOf="parent"

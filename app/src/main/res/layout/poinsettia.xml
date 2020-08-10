@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/woodbackground1"
     tools:context=".poinsettia">
 
     <TextView
@@ -13,7 +14,7 @@
         android:fontFamily="serif"
         android:gravity="center"
         android:text="@string/poinsettia"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/white"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,22 +22,22 @@
 
     <TextView
         android:id="@+id/textView122"
-        android:layout_width="378dp"
-        android:layout_height="268dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="360dp"
+        android:layout_height="155dp"
         android:fontFamily="serif"
         android:gravity="center"
         android:text="@string/poinsettiainfo"
-        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="356dp"
+        android:layout_width="300dp"
         android:layout_height="230dp"
+        android:layout_marginTop="8dp"
         android:adjustViewBounds="true"
         android:cropToPadding="false"
         android:scaleType="fitXY"
@@ -47,9 +48,9 @@
 
     <Button
         android:id="@+id/button12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
         android:onClick="launchWebsite"
         android:text="@string/learnmore"
         app:layout_constraintEnd_toEndOf="parent"

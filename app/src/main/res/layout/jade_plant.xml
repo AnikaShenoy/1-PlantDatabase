@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/woodbackground1"
     tools:context=".jade_plant">
 
     <TextView
         android:id="@+id/textView117"
-        android:layout_width="370dp"
-        android:layout_height="121dp"
-        android:gravity="center"
-        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="serif"
+        android:gravity="center"
         android:text="@string/jadeplant"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/white"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,19 +24,20 @@
         android:id="@+id/textView118"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:fontFamily="serif"
         android:gravity="center"
         android:text="@string/jadeplantinfo"
-        android:textSize="21sp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="184dp"
-        android:layout_height="301dp"
+        android:layout_width="200dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="8dp"
         android:adjustViewBounds="true"
         android:cropToPadding="false"
         android:scaleType="fitXY"
@@ -48,8 +49,8 @@
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
         android:layout_marginTop="8dp"
         android:onClick="launchWebsite"
         android:text="@string/learnmore"

@@ -10,4 +10,6 @@
     <color name="transparentblue">#9933B5E5</color>
     <color name="transgreen">#80669900</color>
     <color name="transgreen2">#669900</color>
+    <color name="black">#000000</color>
+    <color name="actionBar">#000000</color>
 </resources>

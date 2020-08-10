@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/woodbackground1"
     tools:context=".devils_ivy">
 
     <TextView
         android:id="@+id/textView145"
-        android:layout_width="360dp"
-        android:layout_height="124dp"
+        android:layout_width="406dp"
+        android:layout_height="115dp"
         android:fontFamily="serif"
         android:gravity="center"
         android:text="@string/devilsivy"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/white"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,17 +25,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
+        android:fontFamily="serif"
         android:gravity="center"
         android:text="@string/devilsivyinfo"
-        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView15" />
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="302dp"
-        android:layout_height="348dp"
+        android:layout_width="300dp"
+        android:layout_height="347dp"
         android:layout_marginTop="8dp"
         android:adjustViewBounds="true"
         android:cropToPadding="false"
@@ -46,9 +49,9 @@
 
     <Button
         android:id="@+id/button17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="1dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
         android:onClick="launchWebsite"
         android:text="@string/learnmore"
         app:layout_constraintEnd_toEndOf="parent"
