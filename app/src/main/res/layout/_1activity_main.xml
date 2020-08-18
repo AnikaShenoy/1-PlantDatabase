@@ -34,7 +34,7 @@
         android:layout_marginTop="236dp"
         android:fontFamily="@font/aclonica"
         android:gravity="center"
-        android:text="@string/app_name"
+        android:text="@string/mygreenthumb"
         android:textColor="@color/transgreen2"
         android:textSize="60sp"
         android:textStyle="bold"
