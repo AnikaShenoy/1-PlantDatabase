@@ -6,38 +6,57 @@
     android:layout_height="match_parent"
     android:background="@drawable/woodbackground1"
     tools:context=".deadnettle">
-
+    <!--1-->
     <TextView
         android:id="@+id/textView153"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        app:autoSizeTextType="uniform"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:fontFamily="serif"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         android:gravity="center"
         android:text="@string/deadnettle"
         android:textColor="@android:color/white"
-        android:textSize="30sp"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="1"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent=".1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+    <!--3-->
     <TextView
         android:id="@+id/textView154"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        app:autoSizeTextType="uniform"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView31"
+        app:layout_constraintBottom_toTopOf="@id/button32"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="1"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent=".3"
         android:fontFamily="serif"
         android:gravity="center"
         android:text="@string/deadnettleinfo"
         android:textColor="@android:color/white"
-        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView31" />
-
+        app:layout_constraintStart_toStartOf="parent" />
+    <!--2-->
     <ImageView
         android:id="@+id/imageView31"
-        android:layout_width="300dp"
-        android:layout_height="230dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent=".4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/textView154"
         android:adjustViewBounds="true"
         android:cropToPadding="false"
         android:scaleType="fitXY"
@@ -45,15 +64,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView153"
         app:srcCompat="@drawable/deadnettle" />
-
+    <!--4-->
     <Button
         android:id="@+id/button32"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:autoSizeTextType="uniform"
         android:onClick="goOnline"
         android:text="@string/learnmore"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView154" />
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent=".5"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent=".07"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
