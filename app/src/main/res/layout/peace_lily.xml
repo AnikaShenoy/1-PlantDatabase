@@ -71,6 +71,7 @@
         android:layout_height="0dp"
         app:autoSizeTextType="uniform"
         android:onClick="launchWebsite"
+        app:layout_constraintTop_toBottomOf="@id/textView160"
         app:layout_constraintWidth_default="percent"
         app:layout_constraintWidth_percent=".5"
         app:layout_constraintHeight_default="percent"

@@ -74,6 +74,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:autoSizeTextType="uniform"
         android:onClick="goOnline"
+        app:layout_constraintTop_toBottomOf="@id/textView154"
         android:text="@string/learnmore"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

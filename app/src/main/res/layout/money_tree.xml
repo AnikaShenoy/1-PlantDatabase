@@ -70,6 +70,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:onClick="launchWebsite"
+        app:layout_constraintTop_toBottomOf="@id/textView116"
         app:layout_constraintWidth_default="percent"
         app:layout_constraintWidth_percent=".5"
         app:layout_constraintHeight_default="percent"
