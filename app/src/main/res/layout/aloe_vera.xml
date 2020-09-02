@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/woodbackground1"
-    tools:context=".aloe_vera">
+    tools:context="plantdatabase.example.plantdatabase.aloe_vera">
   <!--1-->
   <TextView
       android:id="@+id/textView103"

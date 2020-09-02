@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/leafbackground"
-    tools:context="._5Size_from3nfl_da_atten">
+    tools:context="plantdatabase.example.plantdatabase._5Size_from3nfl_da_atten">
     <!--4-->
     <ImageButton
         android:id="@+id/imageButton25"

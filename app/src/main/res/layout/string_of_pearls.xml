@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/woodbackground1"
-    tools:context=".string_of_pearls">
+    tools:context="plantdatabase.example.plantdatabase.string_of_pearls">
     <!--1-->
     <TextView
         android:id="@+id/textView98"

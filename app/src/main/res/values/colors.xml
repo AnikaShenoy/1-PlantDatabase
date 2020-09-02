@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
-    <color name="beige">#F3C786</color>
-    <color name="light_beige">#D3B891</color>
-    <color name="transparentBlueGray">#664DB3B3</color>
-    <color name="gray">#807C7575</color>
-    <color name="transparentblue">#9933B5E5</color>
     <color name="transgreen">#80669900</color>
     <color name="transgreen2">#669900</color>
-    <color name="black">#000000</color>
-    <color name="actionBar">#000000</color>
 </resources>

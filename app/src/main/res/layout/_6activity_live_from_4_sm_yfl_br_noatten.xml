@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/leafbackground"
-    tools:context="._6Live_from_4_sm_yfl_br_noatten">
+    tools:context="plantdatabase.example.plantdatabase._6Live_from_4_sm_yfl_br_noatten">
     <!--5-->
     <TextView
         android:id="@+id/textView72"

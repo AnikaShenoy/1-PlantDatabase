@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/woodbackground1"
-    tools:context=".swan_river_daisy">
+    tools:context="plantdatabase.example.plantdatabase.swan_river_daisy">
   <!--2-->
   <ImageView
       android:id="@+id/imageView2"
