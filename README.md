@@ -5,6 +5,10 @@
 ## Technologies
 Android Studio, Java
 
-## Demo: 
+## Demo (Tablet: Example of Questions Asked to User): 
 
+![Imgur](https://i.imgur.com/qmVFDjS.png)
 
+## Demo (Mobile: Example Recommendation):
+
+![Imgur](https://i.imgur.com/OsPJzdm.png)
